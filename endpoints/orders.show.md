@@ -20,7 +20,6 @@ curl -H "Authorization: Bearer $API_TOKEN" \
    "name" : "Заказ через API",
    "approved_by_moderator" : null,
    "url": "http://masterplace.test/clients/347/orders/234"
-
 }
 ```
 
