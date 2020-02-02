@@ -36,6 +36,7 @@ curl --request PATCH \
    "is_active" : true,
    "approved_by_moderator" : null,
    "name" : "Измененный заказ через API",
-   "id" : 232
+   "id" : 232,
+   "url": "http://masterplace.test/clients/347/orders/232"
 }
 ```

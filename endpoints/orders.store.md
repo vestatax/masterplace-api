@@ -32,6 +32,7 @@ curl  -H "Authorization: Bearer $API_TOKEN" \
    "updated_at" : "2019-12-09 20:02:22",
    "name" : "Заказ через API",
    "id" : 235,
-   "created_at" : "2019-12-09 20:02:22"
+   "created_at" : "2019-12-09 20:02:22",
+   "url": "http://masterplace.test/clients/347/orders/235"
 }
 ```

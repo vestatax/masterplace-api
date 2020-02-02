@@ -21,7 +21,8 @@ curl -H "Authorization: Bearer $API_TOKEN" \
       "created_at" : "2019-12-09 16:32:59",
       "is_active" : 1,
       "approved_by_moderator" : null,
-      "name" : "Заказ через API"
+      "name" : "Заказ через API",
+      "url": "http://masterplace.test/clients/347/orders/233"
    },
    {
       "id" : 234,
@@ -32,6 +33,7 @@ curl -H "Authorization: Bearer $API_TOKEN" \
       "created_at" : "2019-12-09 16:45:07",
       "approved_by_moderator" : null,
       "is_active" : 1
+      "url": "http://masterplace.test/clients/347/orders/234"
    }
 ]
 ```
@@ -48,3 +50,4 @@ curl -H "Authorization: Bearer $API_TOKEN" \
 | reviewed_by_moderator_at | Дата проверки модератором, если проверка уже произошла |
 | created_at | Дата создания |
 | updated_at | Дата последнего изменения |
+| url | Адрес страницы заказа |
